@@ -23,8 +23,8 @@ def generate_division():
 
 
 def generate_subtract():
-    a = random.randint(2, 99)
-    b = random.randint(2, 99)
+    a = random.randint(0, 200)
+    b = random.randint(0, 200)
 
     true_result = a - b
     display_text = f"{a} - {b} = ?"
@@ -42,8 +42,8 @@ def generate_addition():
     return (true_result, display_text)
 
 def generate_multiple():
-    num1 = random.randint(2, 9)
-    num2 = random.randint(2, 9)
+    num1 = random.randint(2, 15)
+    num2 = random.randint(2, 15)
 
     true_result = num1 * num2
     display_text = f" { num1} x { num2} = ?"
