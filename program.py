@@ -33,8 +33,8 @@ def generate_subtract():
 
 
 def generate_addition():
-    a = random.randint(2, 99)
-    b = random.randint(2, 99)
+    a = random.randint(2, 199)
+    b = random.randint(2, 199)
 
     true_result = a + b
     display_text = f"{a} + {b} = ?"
